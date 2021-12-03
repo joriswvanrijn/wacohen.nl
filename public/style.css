@@ -1,7 +1,6 @@
 body {
   font-family: 'EB Garamond', serif;
   text-align: center;
-  padding: 0 2rem;
 }
 
 
@@ -13,7 +12,7 @@ h1 {
 }
 
 ul {
-  display: flex;
+    display: flex;
   flex-direction: row;
   list-style-type: none;
   gap: 2rem;
@@ -50,15 +49,6 @@ img {
   width: 12rem;
   border-radius: 50%;
   float: right;
-}
-
-@media only screen and (max-width: 600px) {
-  img{
-    float: none;
-    margin-left: -6rem;
-    left: 50%;
-    position: relative;
-  }
 }
 
 a:link,
